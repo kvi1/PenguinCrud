@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+  background-color: black;
+}
+
+.leftbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: gray;
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100vh;
+}
+
+.leftbar h2{
+  cursor: pointer;
+}
+
+.leftbar h2:hover{
+  color: blue;
+}
+
+.main{
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 60%;
+  transform: translate(-50%, 0);
+  font-family: fantasy;
+  
+}
