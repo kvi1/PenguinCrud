@@ -1,6 +1,6 @@
 # Web Development Project 7 - ClubPenguin CRUD
 
-Submitted by: **Your Name Here**
+Submitted by: Kartik Vanjani
 
 This web app: Performs CRUD operations based on the once popular and my once favorite game, Club Penguin!
 
